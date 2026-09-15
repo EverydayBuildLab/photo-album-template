@@ -1,0 +1,32 @@
+# Local / temporary files
+.wrangler/
+.tmp/
+tmp/
+
+# QA artifacts
+qa-*.png
+qa-*.json
+qa-*.html
+test-results/
+
+# Local staging media; keep only public DEMO assets
+assets/*
+!assets/demo/
+!assets/demo/**
+
+# Secrets / local config
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*service-account*.json
+*credentials*.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
