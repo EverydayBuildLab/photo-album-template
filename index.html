@@ -120,7 +120,7 @@ footer{padding:8px 0 42px;color:var(--muted);font-size:12px;line-height:1.6;text
 
   function viewportWidth(){return Math.max(document.documentElement.clientWidth||0,window.innerWidth||0)}
   function batchSize(){const w=viewportWidth();if(w<768)return 12;if(w<1400)return 20;if(w<1800)return 25;return 30}
-  function eagerCount(){const w=viewportWidth();if(w<768)return 1;return Math.max(3,Math.min(8,Math.floor((w-36)/272)))}
+  function eagerCount(){const w=viewportWidth();if(w<768)return 2;return Math.max(3,Math.min(8,Math.floor((w-36)/272)))}
   function currentItems(){const items=cfg.items.filter(x=>x.category===state.category).slice();return state.order==='desc'?items:items.reverse()}
   function makeCard(item,index){
     const card=document.createElement('article');card.className='card';card.dataset.itemId=item.id;
