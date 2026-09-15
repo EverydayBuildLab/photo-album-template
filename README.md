@@ -4,6 +4,12 @@
 
 公開模板本身使用內建 DEMO 素材，不綁定原作者的 Google Drive、私人雲端帳號或任何私密金鑰。建立自己的版本後，再依需求接上自己的 Google Drive。
 
+## 線上 DEMO
+
+- 線上相簿：<https://everydaybuildlab.github.io/photo-album-template/>
+- GitHub Template：<https://github.com/EverydayBuildLab/photo-album-template>
+- DEMO 密碼：`test`
+
 ## 最推薦的使用方式：Use this template
 
 不要以 Fork 作為一般使用流程。請在 GitHub 上按：
