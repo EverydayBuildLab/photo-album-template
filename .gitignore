@@ -7,12 +7,12 @@ tmp/
 qa-*.png
 qa-*.json
 qa-*.html
+qa-*.js
 test-results/
+output/
 
-# Local staging media; keep only public DEMO assets
-assets/*
-!assets/demo/
-!assets/demo/**
+# Local staging media (runtime uses Google Drive)
+assets/
 
 # Secrets / local config
 .env
