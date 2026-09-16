@@ -1,8 +1,8 @@
 window.DEMO_CONFIG = {
-  siteName: '你我身邊・台灣日常相簿',
+  siteName: '你我每一天',
   subtitle: '照片、影片實際由 Google Drive 載入。',
-  badge: '4 × 10 DEMO',
-  note: '主題：你我身邊的真實日常｜台灣城市生活的片刻。人物皆為去敏 AI 示範素材；「影片」為由示範照片製作的短動態相簿，「AI後製」可直接複製提示詞再套用到自己的照片。',
+  badge: '你的單位名稱',
+  note: '',
   driveFolder: 'https://drive.google.com/drive/folders/1qRZZr0tV-TrCgFdoZtmIJqatX53nmNDd?usp=sharing',
   password: 'test',
   // 固定預留 8 個分類槽位。網站只顯示 enabled:true 的槽位。
